@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="splash"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+
+
+    <Button android:id="@+id/hari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:background="#952"
+        android:text="hello"
+        android:textColor="#fff"
+        android:width="200dp"
+        android:height="75dp" />
+</RelativeLayout>
